@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anupama Hospitality | A Luxury Hotel</title>
+    <link rel="icon" href="img/logo.png" type="img/gif/png">
+    <link rel="stylesheet" href="op.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b655985615.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" width="200px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+          
+                <img src="menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+       <h1 class="hm">About us</h1>
+    </section>
+
+   <!-- about us content  -->
+
+    <section class="Kahe">
+        <div class="row">
+           <div class="about-col">
+               <p>Hotel is located near South City Mall, Sri Aurobindo Seva Kendra Hospital, Jadavpur University, and Dhakuria Railway Station. This Property is having 8 comfortable spacious rooms. Rooms have these following amenities such as Flat-Screen TV, Air Conditioner, Geyser and 24 hours WI-FI, Water Purifier, Intercom facilities.<br>
+
+                Property has 24x7 Room Service and Front Desk. We offer comprehensive discount for longer stays. Self cooking provisions are also available for selected rooms.
+                
+                There are various types of restaurant nearby such as Howrah Bridge Restaurant, Kabuliwala, Wasabee etc.
+                
+                Property is having 82+ positive reviews of Google.
+                
+                Local IDs and Unmarried Couples aren't allowed in this Property.
+                
+                The checkin time is 12 PM and checkout time is 11 AM.</p>
+               <a href="" class="hero-btn red-btn">Explore Now</a>
+           </div>
+           <div class="about-col">
+               <img src="lll.jpg" alt="">
+           </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer  -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p class="copy">© 2020 Anupama Hospitality.com All Rights Reserved.</p>
+</footer>
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+<script>
+var  ProductImg = document.getElementById("ProductImg");
+var SmallImg = document.getElementsByClassName("small-img");
+
+SmallImg[0].onclick = function()
+{
+    ProductImg.src = SmallImg[0].src;
+}
+SmallImg[1].onclick = function()
+{
+    ProductImg.src = SmallImg[1].src;
+}
+SmallImg[2].onclick = function()
+{
+    ProductImg.src = SmallImg[2].src;
+}
+SmallImg[3].onclick = function()
+{
+    ProductImg.src = SmallImg[3].src;
+}
+</script>
+
+
+
+</body>
+
+</html>
